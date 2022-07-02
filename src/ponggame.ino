@@ -178,7 +178,7 @@ public:
         display.centerPrint("PONG GAME", 10, 2);
         display.fillRect(0, SCREEN_HEIGHT - 30, SCREEN_WIDTH - 10, 30, WHITE);
         display.setTextColor(BLACK);
-        display.centerPrint("Push button", SCREEN_HEIGHT - 25, 1);
+        display.centerPrint("Move paddle", SCREEN_HEIGHT - 25, 1);
         display.centerPrint("to start!", SCREEN_HEIGHT - 15, 1);
         display.display();
 
